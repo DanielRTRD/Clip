@@ -5,6 +5,9 @@ KNOWN ISSUES =========
 
 CHANGELOG ============
 
+2.2.0 Build ? (13. June 2018)
+- Update the application to its new name and remove old stuff
+
 2.1.0 Build 2066 (23. October 2015)
 - Added mini window to show only history (remembers location, auto saved)
 - Added history favorites
