@@ -1,0 +1,123 @@
+KNOWN ISSUES =========
+
+- If history file is long or has a lot of whitespace it might cause some slowness or not responding at all at startup of the program
+- Using Shift with hotkeys might not work
+
+CHANGELOG ============
+
+2.1.0 Build 2066 (23. October 2015)
+- Added mini window to show only history (remembers location, auto saved)
+- Added history favorites
+- Added more settings for trayicon
+- Added a better history list
+- Added a better check for old settings file
+- Added setting for removing whitespace
+- Added setting to trim text
+- Added a new tab ("Other") and moved some buttons there
+- Added number next to the history on the context menu
+- Added possibility for opting out of sending error emails
+- Added "Silent Mode" (F.req. Hagberg)
+- Improved some code here and there
+- Improved error and logging system
+- Fixed history on right-click might cover the whole screen (FINALLY!)
+- Fixed detailed error in debug logging
+- Fixed "Run Clip on startup" needing admin rights
+- Fixed Windows key not saving for hotkeys
+- Fixed context menus showing up on taskbar when clicking the trayicon
+- Fixed "Clear Logs"-button not working
+- Fixed Clip preventing Windows shutdown
+- Temporary fixed the "Object reference not set to an instance of an object." error
+- Removed "Open Startup Folder"
+- Removed context menu from main form
+- Updated notifyicon messages
+- Updated warning messages to not send debug email
+- Updated copyright year
+- Updated hotkeys groupbox name
+- Updated UI - Major changes
+- Updated names in settings file
+- Merged Textbox and History tabs
+
+2.1.0 Build 2060 - 2064 (23. Oct. 2014 - 20. Feb 2015)
+- Release Candidate Version
+
+2.1.0 Build 2038 - 2059 (27. Feb. - 23. Oct. 2014)
+- Beta Version
+
+2.1.0 Build 2030 - 2037 (05. Feb. - 26. Feb. 2014)
+- Alpha Version
+
+2.0.4 Build 2029 (28. Jan. 2014)
+- Fixed emails crashing the app
+
+2.0.4 Build 2028 (28. Jan. 2014)
+- Minor changes to debug emails
+
+2.0.4 Build 2027 (24. Jan. 2014)
+- Minor changes to debug emails
+- Fixed error logs counter not resetting when clearing logs
+- Fixed spamming error messages
+- Fixed application restarting after you choose not too
+- Fixed the error "Requested Clipboard operation did not succeed."
+- Possible fix for the error "Object reference not set to an object instance.", needs testing.
+- Removed minimize button, because it does the same as the close button
+
+2.0.4 Build 2026 (21. Jan. 2014)
+- Added error to message box
+
+2.0.4 Build 2024 (20. Jan. 2014)
+- Added error logging and reporting
+- Added a status strip instead of using message boxes (some actions need message boxes)
+- Added a new tab and moved all the buttons from the settings tab to it
+- Added privacy policy
+- Added scrollbar to the textbox
+- Added a new splitter in the history, no longer using “new line”
+- Added "View changelog..." link
+- Fixed history not saving properly
+- Fixed height of the list box on the history tab
+- Other minor changes to the UI
+- Removed “How To:” on the about tab
+
+2.0.3 Build 2022 (10. Jan. 2014)
+- If application runs into a problem, it will restart
+
+2.0.3 Build 2021 (19. Nov. 2013)
+- Removed unused code
+
+2.0.3 Build 2020 (19. Nov. 2013)
+- Fixed hotkey code not working because of testing stuff
+
+2.0.3 Build 2019 (18. Nov. 2013)
+- Added “Startup Folder”-button
+
+2.0.3 Build 2018 (15. Nov. 2013)
+- Removed Mouse 5, Mouse 6, multiply and divide because it was not working
+
+2.0.3 Build 2017 (15. Nov. 2013)
+- Added checking if settings file is corrupt
+- Added possibility to show history on mouse pointer with hotkey
+- Trayicon will now always be visible
+- Clipboard will now not spam errors
+
+2.0.2 Build 2015 (29. Oct. 2013)
+- Fixed appdata folder location
+
+2.0.2 Build 2014
+- Moved settings and history file to appdata
+
+2.0.2 Build 2013
+- Added setting for running Clip on startup
+- Added setting for starting Clip minimized
+- Added history storing over sessions
+- Fixed settings not saving correctly
+- You can now install the app
+
+2.0.1 Build 2009 (25. Oct. 2013)
+- Fixed contextmenu in history not changing the copied text
+- Added button to open startup-folder
+- Added possibilty to change what right-click on trayicon does
+
+2.0 Build 2004 (24. Oct. 2013)
+- Public Release
+
+2.0 Build 2000 (24. Oct. 2013)
+- Test Release
