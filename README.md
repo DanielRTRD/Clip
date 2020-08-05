@@ -1,1 +1,2 @@
-# clip
+# Clip
+This is a simple Windows clipboard manager built in Visual Basic. I made this back in 2013-2015 and I am now releasing it as open source since I have no more use for it where it was needed before.
